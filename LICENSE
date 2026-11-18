@@ -1,0 +1,59 @@
+贴贴桌宠 (TietiePet) 使用许可与防倒卖声明
+TietiePet Freeware & Non-Commercial Asset License
+
+Copyright (c) 2026 silang486. All Rights Reserved.
+
+本仓库及随附发布版本（Releases）包含两部分内容：（1）“贴贴桌宠 (TietiePet)”客户端运行程序；（2）打包发布的桌宠角色包（.petpack）与双人互动包（.duopack）。下载、安装、运行或传播本项目任何文件，即表示您同意遵守以下条款：
+
+========================================================================
+一、客户端运行程序许可（个人免费专有许可 / Proprietary Freeware）
+========================================================================
+
+1. 授权范围：
+   - 允许个人用户在自有设备上免费下载、安装和离线运行本程序。
+   - 允许个人用户在视频平台（如 Bilibili、抖音、小红书、YouTube 等）及社交群组中发布非商业性质的桌面录屏展示、实机演示，或在日常直播中作为桌面陪伴同屏展示（建议注明软件名称“贴贴桌宠 / TietiePet”）。
+
+2. 禁止行为：
+   - 严禁对本程序可执行文件、核心资源包（如 app.asar）进行反编译、逆向工程、解包篡改、去除署名或重新打包冒充原创。
+   - 严禁将本程序（无论单独或与任何素材捆绑）用于任何商业售卖或变相收费行为，包括但不限于：闲鱼/淘宝/拼多多等电商平台售卖、付费网盘/付费进群门槛、有偿代安装服务、商业推广捆绑等。
+
+========================================================================
+二、桌宠角色包与双人互动包许可（遵循 CC BY-NC-ND 4.0 精神 + 附加限制）
+========================================================================
+
+针对本项目发布的 .petpack、.duopack 及配套展示图文，除原作 IP 权利人享有的权利外，制作者就其编排、技术适配及软件载体部分采用【署名—非商业性使用—禁止演绎 (CC BY-NC-ND 4.0)】原则并附加以下约束：
+
+1. 署名（BY）：
+   - 在获得允许的非商业转载或分享时，必须完整保留原作者署名（silang486 / 贴贴桌宠）及本仓库或官方交流群原始出处链接，不得抹除来源信息。
+
+2. 非商业性使用（NC）：
+   - 所有公开同人角色包永久免费分享，严禁任何个人、店铺或机构将其用于标价售卖、打赏解锁、引流变现或其他商业用途。对于任何平台的盗卖行为，作者保留直接发起侵权投诉与下架追责的权利。
+
+3. 禁止演绎与防解包提取（ND）：
+   - 严禁解包、提取、扒取 .petpack / .duopack 内部的透明视频（.webm）、GPU 纹理块（.bc7z）、无缝衔接帧及状态机数据，用于二次拼装分发、移植至其他商业/开源软件，或用于任何人工智能模型训练与数据集构建。
+   - 【个人自用豁免】：允许用户在自己本地电脑上修改个人自用的台词配置文本，但修改后的包不得对外公开二次分发。
+
+========================================================================
+三、第三方原作知识产权声明与免责条款
+========================================================================
+
+1. 原作权利归属：
+   - 本项目公开分享的同人角色包（如《BanG Dream!》企划旗下的 MyGO!!!!!、YUME∞MITA 等相关角色）所涉及的角色形象、姓名、性格设定及世界观版权，均归属于原著作权人（Bushiroad Inc. / BanG Dream! Project 等相关权利方）所有。
+   - 本项目系粉丝个人非营利性质的同人二次创作，与原作官方无任何关联。本许可文件仅用于约束软件载体使用及防止第三方恶意倒卖，不主张对原作角色 IP 本身的任何排他权利。
+   - 若原著作权人认为本项目相关同人内容存在不妥，请联系作者，我们将第一时间配合修改或移除。
+
+2. 免责声明（按“原样”提供）：
+   - 本软件及素材按“原样（AS IS）”免费提供，不附带任何明示或暗示的担保。作者不对因使用或无法使用本软件所产生的任何直接或间接损失承担责任。请务必从官方 GitHub Releases 或官方交流群下载，切勿轻信任何第三方收费渠道。
+
+------------------------------------------------------------------------
+English Summary
+------------------------------------------------------------------------
+
+1. Client Application (Freeware, All Rights Reserved):
+   Free for personal, non-commercial desktop use, fan showcase videos, and casual streaming. Reverse engineering, unpacking/modifying `app.asar`, removing attribution, or any form of commercial resale / paid redistribution is strictly prohibited.
+
+2. Pet Packs & Duo Packs (`.petpack` / `.duopack`):
+   Shared free of charge under CC BY-NC-ND 4.0 principles with additional anti-extraction terms. Commercial sale, paid gating, unpacking raw media/textures (`.webm` / `.bc7z`), redistributing modified packs, or using extracted assets for dataset/model training is strictly prohibited. Local dialogue edits for strictly personal use are permitted.
+
+3. Fanwork & Third-Party IP Notice:
+   Characters from third-party franchises (such as *BanG Dream!*) remain the sole property of their respective copyright holders (e.g., Bushiroad Inc. / BanG Dream! Project). Fan-made packs are non-profit derivative works distributed completely free for personal enjoyment. Provided "AS IS" without warranty of any kind.
