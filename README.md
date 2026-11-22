@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/hero-banner.png" width="100%" alt="贴贴桌宠 TietiePet Banner" />
+<img src="docs/assets/hero-banner.png" width="100%" alt="贴贴桌宠 PitaPet Banner" />
 
 <br />
 
@@ -156,5 +156,5 @@
 
 <div align="center">
   <br />
-  <sub>Made with ❤️ for anime & desktop pet fans · <strong>贴贴桌宠 (TietiePet)</strong></sub>
+  <sub>Made with ❤️ for anime & desktop pet fans · <strong>贴贴桌宠 (PitaPet)</strong></sub>
 </div>
