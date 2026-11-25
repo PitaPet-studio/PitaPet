@@ -8,13 +8,13 @@
 
 <p>
   <img src="https://img.shields.io/badge/Windows-64--bit-5B8FF9?style=flat-square" alt="Windows 64-bit" />
-  <img src="https://img.shields.io/badge/Offline-Portable-5AD8A6?style=flat-square" alt="Offline Portable" />
+  <img src="https://img.shields.io/badge/Local-Portable-5AD8A6?style=flat-square" alt="Local Portable" />
   <img src="https://img.shields.io/badge/Current-v0.5.1%20Viola%20%C3%97%20Arale-E05A8D?style=flat-square" alt="v0.5.1" />
   <img src="https://img.shields.io/badge/Fanwork-Free%20%2F%20Non--Commercial-8C7AE6?style=flat-square" alt="Free Fanwork" />
 </p>
 
-An offline Windows desktop pet app focused on **duo interactions** and **responsive 60Hz dragging**.<br />
-Portable, no installer needed, and all fanwork character packs are free.
+A local Windows desktop pet app focused on **duo interactions** and **responsive 60Hz dragging**.<br />
+Portable, no installer or login required, and all fanwork character packs are free.
 
 </div>
 
@@ -52,10 +52,11 @@ Portable, no installer needed, and all fanwork character packs are free.
 
 ## Features
 
-- **Duo Interactions**: Drag two pets near each other to trigger pair animations (cheek pinch, face push, etc.). Right-click the tether line between them to open short relationship scenes and dialogue choices.
+- **Duo Interactions**: Drag two pets near each other to trigger pair animations (5 scenes included: cheek pinch, face push, hair tidy, hood grab, and whisper).
 - **60Hz Fluid Drag**: Real-time directional sway, quick turns, and drop-settle animations in all directions—not a static PNG being dragged around.
 - **Idle Routines**: Standing, sitting, crossed legs, napping, walking around the screen, peeking from edges, and character-specific idle habits so they don't just stare at your cursor.
-- **Offline & Modular Packs**: Runs 100% locally with no installer or network calls. New characters and pair scenes can be imported via `.petpack` (solo) and `.duopack` (duo) files without redownloading the whole app.
+- **Built-in Standard / Lite Mode Toggle**: Switch anytime in **Console → Settings → Run Mode**—Lite mode keeps native sharpness while using static drag to save VRAM/RAM, pausing when covered/fullscreen, releasing idle helper windows, and slowing down auto-duo frequency.
+- **Local & Modular Packs**: No installer, no account, and no cloud AI required. New characters and pair scenes can be imported via `.petpack` (solo) and `.duopack` (duo) files without redownloading the whole app.
 
 ---
 
@@ -63,18 +64,36 @@ Portable, no installer needed, and all fanwork character packs are free.
 
 | Character / Pair | Included | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Viola × Arale Nakamachi**<br /><sub>*BanG Dream! YUME∞MITA*</sub> | Both solo pets (full drag) + cheek-pinch & face-push duo packs + bond arc + fried-egg easter egg | ![v0.5.1](https://img.shields.io/badge/v0.5.1-Ready-5AD8A6?style=flat-square) | [Releases](../../releases) / Mirrors |
+| **Viola × Arale Nakamachi**<br /><sub>*BanG Dream! YUME∞MITA*</sub> | Both solo pets (full drag) + 5 duo interactions (pinch / face push / hair tidy / hood grab / whisper) + fried-egg easter egg | ![v0.5.1](https://img.shields.io/badge/v0.5.1-Ready-5AD8A6?style=flat-square) | [Releases](../../releases) / Mirrors |
 | **MyGO!!!!!** (Anon Chihaya / Raana Kaname, etc.) | Multi-pose solo + full drag + duo interaction packs | ![WIP](https://img.shields.io/badge/Status-In%20QA-F6BD16?style=flat-square) | Coming to Releases after testing |
 
 ---
 
 ## Download & Links
 
-- **Download**: Grab the latest `win64.zip` from **[Releases](../../releases)**.
-- **QQ Group**: `TBD` *(mirrors, early character builds, bug reports & character requests)*
-- **Bilibili**: `TBD`
+- **Download**: Grab the `win64.zip` build from **[Releases](../../releases)** (single full-quality package with a built-in Standard / Lite mode toggle).
+- **QQ Group**: `1137271893` *(mirrors, early character builds, bug reports & character requests)*
 
 > For OC / VTuber desktop pet inquiries, feel free to DM the admin in the group.
+
+---
+
+## Run Modes & System Requirements
+
+Switch anytime in **Console → Settings → Run Mode**. **Both modes keep native sharpness:**
+
+| Aspect | Standard Mode (Default) | Lite Mode (Work / Integrated GPU / Low Resource) |
+| :--- | :--- | :--- |
+| **Visual sharpness** | Native resolution | **Same native resolution** |
+| **Dragging** | Full 60Hz directional carry (BC7 texture pool) | Static window drag (skips BC7 drag pool to save VRAM & RAM) |
+| **Duo cadence** | Normal auto-duo cooldown | Calmer auto-duo (3× longer cooldown); manual clicks & pats respond normally |
+| **Background power** | Always ready | Auto-destroys idle helper windows; **auto-pauses when covered / in fullscreen games** |
+
+### System Requirements
+
+- **OS**: Windows 10 / 11 (64-bit). macOS, Linux, and 32-bit Windows are not supported yet.
+- **GPU**: All animations are pre-rendered—**no internet connection, AI model, or high-end GPU required**. Any modern Intel/AMD integrated GPU or dedicated GPU supporting WebGL2 and BC7 textures works (switch to Lite Mode on laptops/iGPUs or while gaming).
+- **RAM & Storage**: `8 GB+` RAM (`16 GB` + dedicated GPU recommended for Standard Mode with two pets), `~4 GB` free disk space.
 
 ---
 
@@ -85,12 +104,11 @@ Portable, no installer needed, and all fanwork character packs are free.
 
 <br />
 
-1. Download `win64.zip` and **extract the whole folder first** (do not launch the `.exe` directly from inside WinRAR / 7-Zip).
-2. Double-click the `.exe` inside the extracted folder (keep `resources` and companion files in the same directory).
+1. Download `win64.zip` and **extract the whole folder first** (do not launch the `.exe` directly from inside WinRAR / 7-Zip, and avoid protected folders like `C:\Program Files`).
+2. Open the extracted folder and double-click `PitaPet.exe` (keep `resources` and companion files in the same directory).
 3. **Controls**:
-   - Drag pets anywhere; move two pets close to trigger a duo interaction (subject to cooldown).
-   - Right-click the line between them to open the relationship panel.
-   - Click a pet 6 times rapidly for the easter egg. Use the system tray icon to open the Console (switch pets, resize, adjust dialogue frequency, import packs, or quit).
+   - Drag pets anywhere; move two pets close to trigger 5 duo interactions (subject to cooldown).
+   - Click a pet 6 times rapidly for the easter egg. Use the system tray icon to open the Console (toggle Standard/Lite mode, switch pets, resize, adjust dialogue frequency, import packs, or quit).
 
 </details>
 
@@ -108,7 +126,7 @@ Open the tray **Console → Import** and pick your `.petpack` or `.duopack` file
 
 <br />
 
-This is an unsigned indie build, so SmartScreen will warn on first launch. Click **More info → Run anyway**. The app is completely offline and makes no network requests.
+This is an unsigned indie build, so SmartScreen will warn on first launch. Click **More info → Run anyway**. All animations and core features run locally; optional anonymous usage stats (active days and interaction counts only, no personal data) can be toggled off anytime in **Console → Settings**.
 
 </details>
 
