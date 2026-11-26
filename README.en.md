@@ -45,7 +45,7 @@ Current pack: **v0.5.1 Viola × Arale Nakamachi** (5 duo interactions: cheek pin
 - **GitHub Releases**: Download `win64.zip` from **[Releases](../../releases)**
 - **China Mobile Cloud (Fast Mirror)**: https://yun.139.com/shareweb/#/w/i/2yA8MyNmmpPg0
 - **Quark Drive**: https://pan.quark.cn/s/f8345a4c49d5?pwd=M67i (Code: `M67i`)
-- **QQ Group**: `1137271893` (bug reports, early packs, OC / VTuber custom inquiries)
+- **QQ Group**: `1137271893` (bug reports & early packs — if you'd like a custom desktop pet like this, feel free to DM the group admin)
 
 ---
 
